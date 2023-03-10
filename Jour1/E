@@ -1,0 +1,6 @@
+word = "non educated delinquents"
+
+if word.find("e"):
+    print("contient un e")
+else :
+    print("ne contient pas de e")    
