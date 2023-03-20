@@ -1,6 +1,4 @@
 import re
-
-# Fonction qui vérifie si le mot de passe respecte les exigences de sécurité
 def password_is_valid(password):
     if len(password) < 8:
         return False
@@ -14,7 +12,6 @@ def password_is_valid(password):
         return False
     return True
 
-# Demande à l'utilisateur de choisir un mot de passe et vérifie s'il est valide
 password_valid = False
 while not password_valid:
     password = input("Choisissez un mot de passe : ")
